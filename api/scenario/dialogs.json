@@ -7,7 +7,7 @@
     "messages": [
       {
         "speaker": "adventurer",
-        "message": "Great, yet another dark room. I'm pretty sure I'm lost."
+        "message": "Yes, yet another dark room. This will be the adventure of my life."
       },
       {
         "speaker": "minotaur",
@@ -15,11 +15,11 @@
       },
       {
         "speaker": "adventurer",
-        "message": "What... What was that ?"
+        "message": "Hmmm... Here is something to destroy. This will be fun."
       },
       {
         "speaker": "adventurer",
-        "message": "I barely made it out alive after that bat swarm, I should find something to heal myself"
+        "message": "Now I need some potions to completely heal my self after the last battle. I'm sure I find some here "
       }
     ]
   },
@@ -35,11 +35,11 @@
       },
       {
         "speaker": "adventurer",
-        "message": "I'm going to have to face that thing"
+        "message": "I'm going to have to face that thing and distroy it. That's great"
       },
       {
         "speaker": "minotaur",
-        "message": "It's been a while since my axe tasted blood."
+        "message": "I waited for years for my axe tasted blood."
       }
     ]
   },
@@ -51,11 +51,11 @@
     "messages": [
       {
         "speaker": "adventurer",
-        "message": "Well, I played enough video games to know this is a health potion"
+        "message": "Well, I found something. This may be the potion to heal myself."
       },
       {
         "speaker": "adventurer",
-        "message": "Bottoms up !"
+        "message": "Bottoms up ! It was tasty !"
       }
     ]
   },
@@ -67,11 +67,11 @@
     "messages": [
       {
         "speaker": "adventurer",
-        "message": "Cool ! I found something, let's see if I can open this old thing."
+        "message": "Cool ! I found a treasure, let's see if I can open it."
       },
       {
         "speaker": "adventurer",
-        "message": "This should help me with whatever's out there."
+        "message": "It's a sword. This should help me kill whatever's out there."
       }
     ]
   },
