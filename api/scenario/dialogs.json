@@ -1,0 +1,94 @@
+[
+  {
+    "trigger": {
+      "row": 0,
+      "column": 5
+    },
+    "messages": [
+      {
+        "speaker": "adventurer",
+        "message": "Great, yet another dark room. I'm pretty sure I'm lost."
+      },
+      {
+        "speaker": "minotaur",
+        "message": "*sniff* I smell fresh meat"
+      },
+      {
+        "speaker": "adventurer",
+        "message": "What... What was that ?"
+      },
+      {
+        "speaker": "adventurer",
+        "message": "I barely made it out alive after that bat swarm, I should find something to heal myself"
+      }
+    ]
+  },
+  {
+    "trigger": {
+      "row": 4,
+      "column": 8
+    },
+    "messages": [
+      {
+        "speaker": "adventurer",
+        "message": "Looks like there's only one way out"
+      },
+      {
+        "speaker": "adventurer",
+        "message": "I'm going to have to face that thing"
+      },
+      {
+        "speaker": "minotaur",
+        "message": "It's been a while since my axe tasted blood."
+      }
+    ]
+  },
+  {
+    "trigger": {
+      "row": 1,
+      "column": 1
+    },
+    "messages": [
+      {
+        "speaker": "adventurer",
+        "message": "Well, I played enough video games to know this is a health potion"
+      },
+      {
+        "speaker": "adventurer",
+        "message": "Bottoms up !"
+      }
+    ]
+  },
+  {
+    "trigger": {
+      "row": 4,
+      "column": 6
+    },
+    "messages": [
+      {
+        "speaker": "adventurer",
+        "message": "Cool ! I found something, let's see if I can open this old thing."
+      },
+      {
+        "speaker": "adventurer",
+        "message": "This should help me with whatever's out there."
+      }
+    ]
+  },
+  {
+    "trigger": {
+      "row": 3,
+      "column": 10
+    },
+    "messages": [
+      {
+        "speaker": "adventurer",
+        "message": "Take that Mr. Burgers."
+      },
+      {
+        "speaker": "adventurer",
+        "message": "Ba dum tssss."
+      }
+    ]
+  }
+]
