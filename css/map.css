@@ -52,6 +52,14 @@
   background: url('img/walls/interior-face.png') no-repeat, url('img/tiles/5.png');
 }
 
+.tile-face1 {
+  background: url('img/walls/face1.png') no-repeat, url('img/tiles/5.png');
+}
+
+.tile-face2 {
+  background: url('img/walls/face2.png') no-repeat, url('img/tiles/5.png');
+}
+
 
 .entrance {
   width: 104px;
