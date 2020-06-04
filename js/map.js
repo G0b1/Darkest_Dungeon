@@ -47,7 +47,7 @@ class Map {
       left: left,
       top: top
     });
-    //map.changeFog(adventurer.position.row, adventurer.position.column);
+    map.changeFog(adventurer.position.row, adventurer.position.column);
   }
 
   placeSprite(sprite) {
