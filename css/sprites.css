@@ -68,6 +68,18 @@
     }
 }
 
+@keyframes goblin {
+    0% {
+        background: url('img/monsters/goblin-1.png') no-repeat center;
+    }
+    50% {
+        background: url('img/monsters/goblin-2.png') no-repeat center;
+    }
+    100% {
+        background: url('img/monsters/goblin-3.png') no-repeat center;
+    }
+}
+
 @keyframes minotaur {
     0% {
         background: url('img/monsters/minotaur-1.png') no-repeat center;
@@ -116,6 +128,12 @@
 
 .bat {
     animation-name: bat;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+}
+
+#goblin {
+    animation-name: goblin;
     animation-duration: 0.8s;
     animation-iteration-count: infinite;
 }

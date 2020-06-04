@@ -68,7 +68,7 @@ const moveAdventurer = (left, top) => {
     adventurer.position.column + left
   );
 
-  if (!nextTile || nextTile.hasClass("tile-disabled") || nextTile.hasClass("tile-face1") || nextTile.hasClass("tile-face2")) {
+  if (!nextTile || nextTile.hasClass("tile-disabled") || nextTile.hasClass("column-double") || nextTile.hasClass("tile-face1") || nextTile.hasClass("tile-face2")) {
     writeToLog("Can't go there");
   } else if (!dialogSequence.isDialogInProgress()) {
     adventurer.move(left, top, updateCoordinates);

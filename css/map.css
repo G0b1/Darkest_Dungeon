@@ -69,6 +69,28 @@
   
 }
 
+.wall-top-face-left {
+  width: 36px;
+  height: 82px;
+  background: url('img/walls/face0-cropped.png') no-repeat black;
+  position: absolute;
+  left: 309px;
+  top: auto;
+}
+
+.wall-top-face-right {
+  width: 36px;
+  height: 82px;
+  background: url('img/walls/face0-cropped.png') no-repeat black;
+  position: absolute;
+  left: 437px;
+  top: auto;
+}
+
+.column-double {
+  background: url('img/walls/column-double.png') no-repeat, url('img/tiles/5.png');
+}
+
 .door {
   width: 74px;
   height: 62px;

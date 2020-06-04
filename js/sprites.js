@@ -90,7 +90,7 @@ class Adventurer extends Character {
       left: config.leftOffset + config.tileSize * this.position.column,
       top: config.topOffset + config.tileSize * this.position.row
     });
-    //map.changeFog(this.position.row, this.position.column);
+    // map.changeFog(this.position.row, this.position.column);
   }
 
   move(left, top, callback) {
@@ -116,7 +116,7 @@ class Adventurer extends Character {
       "animation-duration": "0.5s"
     });
 
-    this.element.animate(direction, 800, () => {
+    this.element.animate(direction, 500, () => {
       this.movementLock = false;
       this.position = { row, column };
 

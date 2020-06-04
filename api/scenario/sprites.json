@@ -56,6 +56,20 @@
   },
   {
     "position": [
+      4,
+      3
+    ],
+    "stats": {
+      "strength": 8,
+      "vitality": 15,
+      "healingPoints": 15
+    },
+    "type": "vilain",
+    "id": "goblin",
+    "attackable": true
+  },
+  {
+    "position": [
       1,
       1
     ],
@@ -71,8 +85,8 @@
   },
   {
     "position": [
-      3,
-      3
+      4,
+      1
     ],
     "encounterMessage": "Gained 8 healing points",
     "stats": {
@@ -85,8 +99,22 @@
   },
   {
     "position": [
-      4,
-      6
+      0,
+      10
+    ],
+    "encounterMessage": "Gained 8 healing points",
+    "stats": {
+      "strength": 0,
+      "vitality": 0,
+      "healingPoints": 8
+    },
+    "type": "health-potion",
+    "id": "healthPotion3"
+  },
+  {
+    "position": [
+      5,
+      0
     ],
     "encounterMessage": "It's a rusty old sword and a vest",
     "stats": {

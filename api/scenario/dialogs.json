@@ -45,6 +45,22 @@
   },
   {
     "trigger": {
+      "row": 4,
+      "column": 4
+    },
+    "messages": [
+      {
+        "speaker": "goblin",
+        "message": "...stranger... You can't pass by here!"
+      },
+      {
+        "speaker": "adventurer",
+        "message": "We can find out in only one way!"
+      }
+    ]
+  },
+  {
+    "trigger": {
       "row": 1,
       "column": 1
     },
@@ -61,8 +77,8 @@
   },
   {
     "trigger": {
-      "row": 4,
-      "column": 6
+      "row": 5,
+      "column": 0
     },
     "messages": [
       {
