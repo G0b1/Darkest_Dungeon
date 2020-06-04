@@ -90,7 +90,7 @@ class Adventurer extends Character {
       left: config.leftOffset + config.tileSize * this.position.column,
       top: config.topOffset + config.tileSize * this.position.row
     });
-    // map.changeFog(this.position.row, this.position.column);
+    map.changeFog(this.position.row, this.position.column);
   }
 
   move(left, top, callback) {
@@ -110,7 +110,7 @@ class Adventurer extends Character {
 
     const animationName =
       left >= 0 ? "adventurer-move-right" : "adventurer-move-left";
-    //map.changeFog(row, column);
+    map.changeFog(row, column);
     this.element.css({
       "animation-name": animationName,
       "animation-duration": "0.5s"
