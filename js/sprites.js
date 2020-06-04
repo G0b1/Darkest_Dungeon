@@ -150,6 +150,8 @@ class SpriteFactory {
         return new Vilain(position, element, stats, encounterMessage);
       case constants.spriteTypes.BAT:
         return new Monster(position, element, type, stats, encounterMessage);
+      case constants.spriteTypes.GOBLIN:
+        return new Monster(position, element, type, stats, encounterMessage);
       default:
         return new Sprite(position, element, type, stats, encounterMessage);
     }

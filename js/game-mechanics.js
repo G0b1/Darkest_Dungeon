@@ -41,7 +41,8 @@ class GameMechanics {
   isAttackable(sprite) {
     if (
       sprite.type === constants.spriteTypes.BAT ||
-      sprite.type === constants.spriteTypes.VILAIN
+      sprite.type === constants.spriteTypes.VILAIN ||
+      sprite.type === constants.spriteTypes.GOBLIN
     ) {
       return true;
     }
@@ -97,6 +98,9 @@ class GameMechanics {
 
     if (defender.isDead()) {
       map.removeSprite(defender);
+      if (defender.type == "vilain") {
+        writeToLog("YOU WON THE GAME!!! ^_^");
+      }
     }
   }
 }

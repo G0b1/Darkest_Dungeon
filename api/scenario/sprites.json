@@ -64,7 +64,7 @@
       "vitality": 15,
       "healingPoints": 15
     },
-    "type": "vilain",
+    "type": "goblin",
     "id": "goblin",
     "attackable": true
   },

@@ -61,6 +61,7 @@ class Map {
   }
 
   removeSprite(sprite) {
+    console.log(this.sprites);
     delete this.sprites[sprite.element.attr("id")];
     sprite.element.remove();
   }
